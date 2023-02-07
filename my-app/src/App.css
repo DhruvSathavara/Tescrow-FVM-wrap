@@ -1,0 +1,493 @@
+*{
+  overflow-x: hidden;
+}
+
+.icon-name{
+  margin-top: 16px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.grid-container {
+  padding: 0;
+  margin: 0;
+  grid-template-columns: auto auto auto;
+}
+div .cardsfeture a{
+  font-size: 40px;
+}
+.grid-item {
+  padding: 0;
+  margin: 0;
+  margin-top: 45px !important;
+}
+
+.grid-container .cardimg img {
+  border-radius: 10px;
+}
+
+.grid-container .cardsfeture {
+  border-radius: 10px;
+  padding: 40px;
+  border: 1px solid rgb(193 3 3);
+  background: ghostwhite;
+  text-align: center;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    /* background-image: none; */
+    overflow: hidden;
+    /* border-radius: 16px; */
+    position: relative;
+    z-index: 0;
+    box-shadow: none;
+    text-align: center;
+    padding: 40px 0px;
+    color: rgb(0, 82, 73);
+    background-color: rgb(200, 250, 205);
+
+  /* box-shadow: 5px 5px 5px 5px #888888; */
+  /* box-shadow: 0 4px 8px hsl(185deg 8% 67% / 50%); */
+
+}
+
+
+
+/* ---------- FREELANCERS AGREEMENT FORM -------------- */
+
+.createAgreement{
+  padding: 4rem 0;
+  min-height: calc(100vh - 64px);
+}
+.section--mid{
+  background-color: #f5f7f9;
+
+}
+.createAgreement-form--container{
+  background-color: #fff;
+  box-shadow: 0 4px 8px hsl(185deg 8% 67% / 50%);
+    padding: 3rem 7rem;
+    border-radius: 4px;
+    max-width: 920px;
+}
+.section-container{
+  width:100%;
+  min-width: 288px;
+    margin: 0 auto;
+}
+.createAgreement-title{
+  font-size: 2.4rem;
+    line-height: 1.33;
+    color: #01426a;
+    font-weight: 500;
+    margin: 1rem 0 2rem;
+}
+
+.MuiInputBase-input{
+  padding: 15px 0 7px !important;
+}
+.submit-success-btn{
+  background-color: #01426a !important;
+  color: white !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  outline: 0px !important;
+  border-radius: 4px !important;
+  line-height: 2 !important;
+  letter-spacing: 3px !important;
+  font-size: 18px !important;
+  vertical-align: middle !important;
+  padding: 9px 23px !important;
+  margin-top: 40px !important;
+}
+.submit-success-btn-onclick{
+  background-color: #01426a !important;
+  color: white !important;
+  font-weight: 700 !important;
+  cursor: auto !important;
+  outline: 0px !important;
+  border-radius: 4px !important;
+  line-height: 2 !important;
+  letter-spacing: 3px !important;
+  font-size: 18px !important;
+  vertical-align: middle !important;
+  padding: 9px 23px !important;
+  margin-top: 40px !important;
+}
+.MuiButton-label{
+  overflow: hidden;
+}
+/* .createAgreement-title .textfield{
+  padding: 10px;
+} */
+
+.dividerr {
+  width: 30% !important;
+  height: 1px;
+  border-bottom: 1px solid #ccc;
+}
+
+.dispute-dividerr {
+  margin-bottom: 20px;
+  width: 100% !important;
+  height: 1px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* ------------------ DISPLAYING AGREEMENTS ------------------------ */
+.myagreement-title{
+  font-size: 2.3rem;
+    line-height: 1.33;
+    color: #01426a;
+    font-weight: 500;
+    margin: 1rem 0 2rem;
+}
+.agreements-card{
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 8px hsl(185deg 8% 67% / 50%);
+    box-shadow: 0 4px 8px hsl(185deg 8% 67% / 50%);
+    border-radius: 6px;
+    height: 100%;
+}
+.agreement-table{
+  width: 100%;
+  border-radius: 0 0 6px 6px;
+  border-collapse: collapse;
+    border-spacing: 0;
+    color: #4f5759;
+}
+.agreement-table-row{
+  display: table-row;
+  border-top: 1px solid #d9d5ec;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin: 0;
+}
+.transactions-table-row {
+    display: table-row;
+    border-top: 1px solid #d9d5ec;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    max-width: 450px;
+}
+.agreement-table-row--header {
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.33;
+    background: #f4f2ff;
+    color: #6e6893;
+    font-weight: 700;
+    display: none;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+.agreement-table-cell--header{
+vertical-align: middle;
+
+}
+.agreement-table-cell {
+  color: #25213b;
+  font-weight: 500;
+  padding: 15px 0 15px 20px;
+  padding: 1.5rem 0 1.5rem 2rem;
+  text-align: left;
+  vertical-align: middle;
+}
+.agreement-table-cell--header-wrapper {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  outline: none;
+  position: relative;
+}
+.agreement-table-cell{
+  color: #25213b;
+    font-weight: 500;
+    padding: 15px 0 15px 20px;
+    padding: 1.5rem 0 1.5rem 2rem;
+    text-align: left;
+    vertical-align: middle;
+}
+.agreement-table-row{
+    display: table-row;
+    border-top: 1px solid #d9d5ec;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.43;
+    border-radius: 5px;
+    font-weight: 500;
+    /* max-width: 450px; */
+  box-shadow: 0 3px 5px rgba(1, 27, 32, 0.5);
+}
+.agreement-tablerow:hover{
+  /* background-color: #f5f7f9; */
+cursor: pointer;
+}
+
+.agrmnt-form--container{
+  background-color: #fff;
+  box-shadow: 0 4px 8px hsl(185deg 8% 67% / 50%);
+    /* padding: 4rem 8rem; */
+    border-radius: 4px;
+    max-width: 920px;
+}
+
+.transactions-table tbody tr:last-child .transactions-table-cell--last{
+  border-bottom-right-radius: 5px;
+}
+.transactions-table-cell{
+  color: #25213b;
+    font-weight: 500;
+    padding: 15px 0 15px 20px;
+    padding: 1.5rem 0 1.5rem 2rem;
+    text-align: left;
+    width:29%;
+    vertical-align: middle;
+}
+.transactions-tags-container{
+  padding-right: 2rem;
+    justify-content: right
+}
+.transactions-tags-item--awaiting{
+  background-color: #fff1a8;
+    color: #677702;
+}
+.transactions-tags-item{
+  align-items: center;
+    border-radius: 1.5rem;
+    display: flex;
+    padding: 0.35rem 1.1rem;
+}
+.dividerr{
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  margin: 14px 0;
+}
+.note-class{
+  margin-left: 17px !important;
+    margin-top: 25px !important;
+    margin-bottom: -8px !important;
+}
+
+
+
+
+/* -----------------------AGREEMENT DETAIL CARD --------------- */
+
+.agreement-detail-card{
+  /* background-color: #fff; */
+    /* box-shadow: 0 4px 8px hsl(185deg 8% 67% / 50%); */
+    padding: 3rem 7rem;
+    /* border-radius: 4px; */
+    max-width: auto;
+    /* box-shadow: 0px 0px 10px #888888; */
+}
+.agreement-buyer{
+  font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.agreement-buyer-stake{
+  font-weight: 700;
+  /* background-color: #677702; */
+
+}
+
+.agreement-detail-card .buyerAgreement{
+  background-color: #f0f8fe !important;
+  border-radius: 5px;
+  padding: 10%;
+  /* width: max-content; */
+  /* color: red; */
+}
+.agreement-detail-card .sellerAgreement{
+  background-color: #f0f8fe !important;
+  border-radius: 5px;
+  padding: 10%;
+
+}
+.cancel-agreement-btn{
+  background-color: #b34815 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  outline: 0px !important;
+  border-radius: 4px !important;
+  line-height: 2 !important;
+  margin: 0px 0px 10px 0px !important;
+  letter-spacing: 1px !important;
+  font-size: 13px !important;
+  vertical-align: middle !important;
+  padding: 5px 13px !important;
+  margin-top: 0px !important;
+}
+.cancel-agreement-btn-onclick{
+  background-color: #b34815 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  cursor: auto !important;
+  outline: 0px !important;
+  border-radius: 4px !important;
+  line-height: 2 !important;
+  letter-spacing: 3px !important;
+  font-size: 18px !important;
+  vertical-align: middle !important;
+  padding: 9px 23px !important;
+  margin-top: 40px !important;
+}
+.providerstake-success-btn{
+  background-color: #01426a !important;
+    color: white !important;
+    font-weight: 700 !important;
+    cursor: pointer !important;
+    outline: 0px !important;
+    border-radius: 4px !important;
+    line-height: 2 !important;
+    margin: 0px 0px 10px 0px !important;
+    letter-spacing: 1px !important;
+    font-size: 13px !important;
+    vertical-align: middle !important;
+    padding: 5px 17px !important;
+    margin-top: 0px !important;
+}
+.providerstake-success-btn-onclick{
+  background-color: #01426a !important;
+  color: white !important;
+  font-weight: 700 !important;
+  cursor: auto !important;
+  outline: 0px !important;
+  border-radius: 4px !important;
+  line-height: 2 !important;
+  letter-spacing: 3px !important;
+  font-size: 18px !important;
+  vertical-align: middle !important;
+  padding: 9px 23px !important;
+  margin-top: 40px !important;
+}
+
+
+body {
+  padding-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  height: fit-content;
+  padding-bottom: 50px;
+  border-radius: 35px;
+  width:26vw;
+}
+
+ .forbg1{
+  background-color:#c6f5cd;
+}
+.forbg2{
+  background-color:#d0f3fe;
+}
+.forbg3{
+  background-color:#fff7cc;
+}
+.forbg4{
+  background-color:#d7e3ff;
+}
+.forbg5{
+  background-color:#e8f6d3;
+}
+.forbg6{
+  background-color:#ffe6d9;
+}
+
+
+
+
+.grid > article .fonticon {
+  font-size: 48px;
+  line-height: 70px;
+  height: 80px;
+  width: 80px;
+  /* border: 6px solid white; */
+  border-radius: 50%;
+  /* background-color: #007bff; */
+  text-align: center !important;
+  /* color: white; */
+  display: inline-block;
+  overflow-y: hidden;
+  justify-content: center;
+  overflow-x: hidden;
+  margin-top: 36px;
+
+}
+
+/* .fonticon .icon2{
+  
+    opacity: 0.5;                 
+    color: rgb(45, 45, 1);
+    -webkit-filter: blur(1px);    
+    -moz-filter: blur(1px);
+    filter: blur(1px); 
+} */
+
+
+
+
+
+
+
+
+/* ------------------------  Auction -------------------- */\
+
+.auction-detail-card{
+  width: 48% !important;
+  margin-left: 22px;
+}
+
+.createAuction-form--container{
+  background-color: #fff;
+  box-shadow: 0 4px 8px hsl(185deg 8% 67% / 50%);
+    padding: 3rem 7rem;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.time-standard{
+  background: #EAEFF1;
+  border: none;
+  border-bottom: 4px solid #C9D6DA;
+  display: block;
+  margin-bottom: .625em;
+  outline-offset: 3px;
+  padding: .45em .45em .45em .65em;
+  width: 40%;
+}
+.time-standard:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+font-style:italic;
+font-size:0.9em;
+}
+.allbids-dividerr{
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  margin: 0px;
+}
